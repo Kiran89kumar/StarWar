@@ -48,7 +48,7 @@ dependencies {
     implementation(Libraries.design)
     implementation(Libraries.constraintLayout)
 
-    //Dager
+    //Dagger
     implementation(Libraries.dagger)
     implementation(Libraries.daggerAndroid)
     implementation(Libraries.daggerSupport)
@@ -76,10 +76,6 @@ dependencies {
     implementation(Libraries.lifecycleSavedstate)
     implementation(Libraries.lifecycleCommonJava8)
     kapt(Libraries.lifecycleCompiler)
-
-    //Glide
-    implementation(Libraries.glide)
-    kapt(Libraries.glideCompiler)
 
     // Navigation
     implementation(Libraries.navigationFragmentKtx)
