@@ -56,6 +56,7 @@ Technologies used in this project are:
 * MockK: Used MockK for Mocking and UT tests.
 * Safeargs: Used to pass data from one screen to other using Navigation components
 * Kotlin
+* Kotlin DSL
 
 # API
 
