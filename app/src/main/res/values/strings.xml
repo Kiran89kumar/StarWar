@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">StarWar</string>
+    <string name="search_text">Star Wars - Finder</string>
+    <string name="loading">Loading please wait</string>
+    <string name="retry">Retry</string>
+    <string name="character_name">Character name</string>
+    <string name="search">search</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="height">Height</string>
+    <string name="home_world">Home World</string>
+    <string name="population">Population</string>
+    <string name="films">Films:</string>
+    <string name="director">Director</string>
+    <string name="producer">Producer</string>
+
+    <string name="err_dialog_title">Something went Wrong</string>
+    <string name="err_dialog_msg">Please try again!</string>
+    <string name="err_title">Error</string>
+    <string name="no_search_character">Searched Character not found! \n Try searching other Character</string>
+</resources>
