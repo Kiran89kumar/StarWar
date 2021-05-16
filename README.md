@@ -45,18 +45,18 @@ Technologies used in this project are:
 
 
 * <b>Andorid Architecture Components</b>: Used andorid provided architecture components to make developer job easy -
-  * a. MVVM
-  * b. ViewModel
-  * c. ViewModelFactory
-  * d. Live Data
-  * e. Navigation Components - Used for Navigation from one screen to other
+  *  a. MVVM
+  *  b. ViewModel
+  *  c. ViewModelFactory
+  *  d. Live Data
+  *  e. Navigation Components - Used for Navigation from one screen to other
 
-* Dagger: Dagger is an dependency injection framwork. 
-* Retrofit + RxJava: To make API calls Retrofit with RXjava is used. Used Interceptors for Error handling.
-* MockK: Used MockK for Mocking and UT tests.
-* Safeargs: Used to pass data from one screen to other using Navigation components
-* Kotlin
-* Kotlin DSL
+*  Dagger: Dagger is an dependency injection framwork. 
+*  Retrofit + RxJava: To make API calls Retrofit with RXjava is used. Used Interceptors for Error handling.
+*  MockK: Used MockK for Mocking and UT tests.
+*  Safeargs: Used to pass data from one screen to other using Navigation components
+*  Kotlin
+*  Kotlin DSL
 
 # API
 
