@@ -51,15 +51,15 @@ abstract class BaseActivity : DaggerAppCompatActivity() {
             is ServerException -> {
                 if(error.serverError != null ){
                     //Handling Error - Received from Server
-                    showDialog("Server Error", error.message?: "")
+                    showDialog(getString(R.string.server_error), error.message?: "")
                 } else {
                     val msgArray = when(error.kind){
                         ServerException.Kind.NETWORK ->
-                            listOf("No Connection", "Please check your network!")
+                            listOf(getString(R.string.no_connection), getString(R.string.no_connection_desc))
                         ServerException.Kind.HTTP ->
-                            listOf("Network Error","A non-200 HTTP status code was received from the server")
+                            listOf(getString(R.string.network_error),getString(R.string.network_error_msg))
                         else ->
-                            listOf("Unexpected Error", "Something went wrong try again later!")
+                            listOf(getString(R.string.unexpected_error), getString(R.string.unexpected_error_msg))
                     }
                     showDialog(msgArray[0], msgArray[1])
                 }

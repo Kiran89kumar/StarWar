@@ -17,4 +17,11 @@
     <string name="err_dialog_msg">Please try again!</string>
     <string name="err_title">Error</string>
     <string name="no_search_character">Searched Character not found! \n Try searching other Character</string>
+    <string name="server_error">Server Error</string>
+    <string name="no_connection">No Connection</string>
+    <string name="no_connection_desc">Please check your network!</string>
+    <string name="network_error">Network Error</string>
+    <string name="network_error_msg">A non-200 HTTP status code was received from the server</string>
+    <string name="unexpected_error">Unexpected Error</string>
+    <string name="unexpected_error_msg">Something went wrong try again later!</string>
 </resources>
