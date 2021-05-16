@@ -90,7 +90,6 @@ object TestLibraries {
     const val mockitoKotlin                 = "com.nhaarman.mockitokotlin2:mockito-kotlin:${Versions.mockitoKotlin}"
     const val espressoCore                  = "com.android.support.test.espresso:espresso-core:${Versions.espressoVersion}"
 
-
     const val mockk                         = "io.mockk:mockk:${Versions.mockk}"
     const val coreTest                      = "androidx.arch.core:core-testing:${Versions.coreTest}"
     const val assertjCore                   = "org.assertj:assertj-core:${Versions.assertjCore}"

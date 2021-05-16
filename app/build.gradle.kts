@@ -52,7 +52,6 @@ dependencies {
     implementation(Libraries.dagger)
     implementation(Libraries.daggerAndroid)
     implementation(Libraries.daggerSupport)
-    implementation("androidx.legacy:legacy-support-v4:1.0.0")
     kapt(Libraries.daggerCompiler)
     kapt(Libraries.daggerProcessor)
 
